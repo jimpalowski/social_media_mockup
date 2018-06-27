@@ -2,7 +2,7 @@ import React from 'react'
 
 function NavBar(){
   return(
-    <div>  
+    <div>
       <style global jsx>{`
 * {box-sizing: border-box;}
 
@@ -75,15 +75,15 @@ body {
     padding: 14px;
   }
   .topnav input[type=text] {
-    border: 1px solid #ccc;  
+    border: 1px solid #ccc;
   }
       }
-       `} </style>  
-      <div class="topnav">
+       `} </style>
+      <div className="topnav">
         <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <div class="search-container">
+        <a href="#notification">Notifications</a>
+        <a href="#messages">Messages</a>
+        <div className="search-container">
           <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search" />
             <button type="submit">Submit</button>
