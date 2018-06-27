@@ -1,7 +1,7 @@
 import React from 'react'
 import PostingWall from './PostingWall'
 import NavBar from './NavBar'
-import SearchBox from './SearchBox';
+import SearchBox from './SearchBox'
 
 
 function App() {
@@ -54,7 +54,7 @@ function App() {
       `}</style>
       <div className="video-container">
         <video autoPlay loop>
-          <source src="http://www.icutpeople.com/wp-content/themes/icutpeople/assets/video/waynesworld.mp4" type="video/mp4" />
+          <source src="https://i.imgur.com/d0gspHC.mp4" type="video/mp4" />
 
         </video>
         <div className="overlay-desc">
