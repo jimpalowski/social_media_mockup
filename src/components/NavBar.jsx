@@ -84,17 +84,7 @@ body {
         <a href="#notification">Notifications</a>
         <a href="#messages">Messages</a>
         <div className="search-container">
-          <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search" />
-            <button type="submit">Submit</button>
-          </form>
         </div>
-      </div>
-
-      <div>
-        <h2>Responsive Search Bar</h2>
-        <p>Navigation bar with a search box and a submit button inside of it.</p>
-        <p>Resize the browser window to see the responsive effect.</p>
       </div>
     </div>
   )

@@ -1,6 +1,8 @@
 import React from 'react'
 import PostingWall from './PostingWall'
 import NavBar from './NavBar'
+import SearchBox from './SearchBox';
+
 
 function App() {
   return (
@@ -39,9 +41,9 @@ function App() {
           background: rgba(0,0,0,0);
           position: absolute;
           top: 0; right: 0; bottom: 0; left: 0;
-          display: flex;
           align-items: center;
           justify-content: center;
+          margin-top:250px;
         }
         h1 {
           color: white;
@@ -56,16 +58,19 @@ function App() {
 
         </video>
         <div className="overlay-desc">
-          <h1>JP and VS's World</h1>
+          <SearchBox/>
         </div>
+
       </div>
       <div style={{margin: '19px auto 0', width: 142}}>
         <a href="https://medium.com/" target="_blank">
           <div className="box">
+
             <PostingWall/>
           </div>
         </a>
       </div>
+
     </div>
   )
 }
