@@ -6,9 +6,10 @@ function Post(props){
       <style global jsx>{`
             div {
                 background-color: white;
+            }
             `}</style>
-      <h3>{props.user}</h3>
-      <p><em>{props.userimg} || {props.description}</em></p> 
+      <h3>{props.userimg}{props.user}</h3>
+      <p><em>{props.description}</em></p> 
       <hr/>
     </div>     
   )

@@ -52,6 +52,10 @@ function App() {
           font-size: 9vw;
           text-align: center;
         }
+        img{
+           width: 25%;
+           margin-right: 20px;
+        }
       `}</style>
       <div className="video-container">
         <video autoPlay loop>
@@ -66,8 +70,7 @@ function App() {
       <div style={{margin: '19px auto 0', width: 142}}>
         <a target="_blank">
           <div className="box">
-            <PostingWall/>
-            
+            <PostingWall/>     
           </div>
         </a>
       </div>
