@@ -1,16 +1,16 @@
 import React from 'react'
-import Wall from './Wall'
+import Post from './Post'
 
 var masterPostingWall = [
   {   
     user: 'Lorem Ipsum',
-    userimg: '',
+    userimg: 'aw',
     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
   },
   {   
-    user: 'Lorem Ipsum',
-    userimg: '',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
+    user: 'Lorem O',
+    userimg: 'sd',
+    description: 'perferendis quo aliquid vitae..',
   }
 ]
 
@@ -18,9 +18,22 @@ var masterPostingWall = [
 function PostingWall(){
   return (
     <div>
+      <style jsx>
+        {`
+      h1{
+        color:black;
+      }
+      .search{
+        border: 15px solid lightblue;
+        background-color: lightblue;
+      }
+      `}</style>
       <hr/>
+      <div className="search">
+      <input placeholder="Whats Happening" />
+      </div>
       {masterPostingWall.map((post, index) =>
-        <Wall user={post.user}
+        <Post user={post.user}
           userimg={post.userimg}
           description={post.description}
           key={index} />

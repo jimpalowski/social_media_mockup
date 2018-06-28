@@ -8,7 +8,6 @@ function App() {
   return (
 
     <div>
-
       <NavBar/>
       <style global jsx >{`
         body {
@@ -17,8 +16,10 @@ function App() {
         .box {
           border: none;
           display: block;
-          border-bottom: 2px solid #fff;
+          border-bottom: 2px solid black;
           margin-bottom: 10px;
+          color: black;
+          width:300px;
         }
         .box:hover {
           border-bottom: 2px solid #ccc;
@@ -63,14 +64,13 @@ function App() {
 
       </div>
       <div style={{margin: '19px auto 0', width: 142}}>
-        <a href="https://medium.com/" target="_blank">
+        <a target="_blank">
           <div className="box">
-
             <PostingWall/>
+            
           </div>
         </a>
       </div>
-
     </div>
   )
 }
